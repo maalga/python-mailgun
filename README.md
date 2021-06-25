@@ -8,21 +8,21 @@ Pre-requisitos:
 
 Instrucciones:
 
-El script corre por linea de comandos, consta de nueve argumentos, algunos de ellos opcionales. 
+El script corre por linea de comandos, consta de nueve argumentos, algunos de ellos opcionales. <br />
 python mailgun.py --help para ver los argumentos disponibles.
 
 Ejemplo de uso:
 
-Enviar mail con asunto y texto plano en el cuerpo. 
-python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'"
-Enviar mail con asunto, texto plano y archivo adjunto.
-python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'" -a "nombrearchivoadjunto"
-Enviar mail con asunto, texto plano y archivo adjunto.
-python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'" -a "nombrearchivoadjunto" 
+Enviar mail con asunto y texto plano en el cuerpo. <br />
+python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'"<br />
+Enviar mail con asunto, texto plano y archivo adjunto.<br />
+python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'" -a "nombre_archivoa_djunto"<br />
+Enviar mail con asunto, texto plano y contenido en html.<br />
+python mailgun.py -d example.com -f frommail@example.com -t examplemail@gmail.com -s 'subject' -m 'text body'" -o "archivo_html" <br />
 
-Documentación:
-https://documentation.mailgun.com/en/latest/
-https://docs.python.org/3/library/argparse.html
+Documentación:<br />
+https://documentation.mailgun.com/en/latest/<br />
+https://docs.python.org/3/library/argparse.html<br />
 
 
 
